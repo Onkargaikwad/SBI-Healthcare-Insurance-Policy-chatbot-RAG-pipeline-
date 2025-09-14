@@ -4,15 +4,18 @@
 # But keep .gitignore itself
 !.gitignore
 
-# Keep these
+# Keep root-level files
 !app.py
+
+# Keep folders
 !static/
 !templates/
+!rgbot/
 !rgbot/data/
-
-# Inside rgbot/data, keep PDF + FAISS
-!rgbot/data/*.pdf
 !rgbot/data/faiss_index/
+
+# Keep specific file types
+!rgbot/data/*.pdf
 !rgbot/data/faiss_index/*.faiss
 !rgbot/data/faiss_index/*.pkl
 
@@ -22,4 +25,4 @@ __pycache__/
 .venv/
 uv.lock
 *.log
-
+*.env
