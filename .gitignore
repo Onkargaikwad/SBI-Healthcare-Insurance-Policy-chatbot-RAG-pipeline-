@@ -19,6 +19,9 @@
 !rgbot/data/*.pdf
 !rgbot/data/faiss_index/*.faiss
 !rgbot/data/faiss_index/*.pkl
+!rgbot/data/static/*.style.css
+!rgbot/data/templates/*.index.html
+
 
 # Ignore Python cache, venvs, system files
 __pycache__/
